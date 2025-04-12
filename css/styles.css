@@ -19,12 +19,12 @@
 body {
   font-family: var(--font-family);
   background-color: var(--white);
-  color: var(--navy-blue);
+  color: #434455;
   margin: 0;
 }
 
 span {
-  color: var(--iris);
+  color: #2e2f42;
   font-family: var(--second-family);
 }
 
@@ -62,11 +62,11 @@ span {
 }
 
 .header-list-naw .header-list-naw-item:hover {
-  color: var(--ocean);
+  color: color: #404bbf;
 }
 
 .header-list-naw .header-list-naw-item:active {
-  color: var(--ocean);
+  color: color: #404bbf;
   text-decoration: underline;
 }
 
@@ -76,12 +76,14 @@ li {
 }
 
 .address-list-item {
-  color: var(--navy-blue);
+  color: #434455;
   text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .address-list-item:hover {
-  color: var(--ocean);
+  color: #404bbf;
 }
 
 /*  Стилі Main Banner*/
