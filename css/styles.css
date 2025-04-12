@@ -39,13 +39,14 @@ span {
 }
 
 .header-logo {
+  font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
   text-decoration: none; /* забрати підкреслення*/
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em; /* відстань між символами */
   text-transform: uppercase; /* символи з великої букви */
-  color: var(--navy-blue);
+  color: #4d5ae5;
 }
 .header-list-naw {
 }
