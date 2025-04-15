@@ -17,101 +17,73 @@
 }
 
 body {
-  font-family: var(--font-family);
-  background-color: var(--white);
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
   color: #434455;
-  margin: 0;
 }
 
-span {
-  color: #2e2f42;
-  font-family: var(--second-family);
-}
-
-/*  Стилі Header */
-
-.header {
-  background-color: var(--white);
-  width: 100%;
-}
-
-.header-navigation {
-}
-
-.header-logo {
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 18px;
-  text-decoration: none; /* забрати підкреслення*/
-  line-height: 1.17;
-  letter-spacing: 0.03em; /* відстань між символами */
-  text-transform: uppercase; /* символи з великої букви */
-  color: #4d5ae5;
-}
-.header-list-naw {
-}
-
-.header-list-naw-item {
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 16px;
-  background-color: var(--white);
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-  color: var(--navy-blue);
-}
-
-.header-list-naw .header-list-naw-item:hover {
-  color: color: #404bbf;
-}
-
-.header-list-naw .header-list-naw-item:active {
-  color: color: #404bbf;
-  text-decoration: underline;
-}
-
-.addres-list,
-li {
+ul,
+ol {
   list-style-type: none;
 }
 
-.address-list-item {
-  color: #434455;
+a {
   text-decoration: none;
+}
+
+.page-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #434455;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em; /* відстань між символами */
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-logo .logo-part {
+  color: #2e2f42;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-link {
+  color: #434455;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.address-list-item:hover {
+.nav-link:hover,
+.nav-link:active,
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 
 /*  Стилі Main Banner*/
-.wrapper {
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  width: 1440px;
-  height: 600px;
-  position: relative;
-
+.main-page {
   background-color: var(--navy-blue);
 }
 
-.main-banner-container {
-  margin: auto;
-  background: var(--navy-blue);
-  padding-top: 60px;
-  padding-right: 60px;
-  padding-left: 60px;
-  padding-bottom: 60px;
-  box-sizing: border-box;
-  text-align: center;
-}
-
-.main-banner-title {
+.main-page-title {
   color: var(--white);
   font-weight: 700;
   font-size: 56px;
@@ -120,49 +92,38 @@ li {
   text-align: center;
 }
 
-.main-banner-button {
-  margin: auto;
+.main-page-button {
   border-radius: 4px;
   width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: var(--iris);
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white);
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 24px;
-  padding-right: 24px;
-  cursor: pointer;
 }
-.main-banner-button:hover {
+
+.main-page-button:hover {
   background-color: var(--ocean);
 }
 
 /*  #region studio*/
+
 .strategy-studio {
-}
-.container {
-  background-color: var(--white);
-  width: 1128px;
-  height: 104px;
-}
-.strategy-item {
-  width: 264px;
-  height: 104px;
   background-color: var(--white);
 }
-.strategy-item-title {
+
+.studio-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
-.strategy-item-descr {
+.studio-item-descr {
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
@@ -170,18 +131,13 @@ li {
   color: var(--slate);
 }
 
-/*  <!-- #region our teem --  portfolio -->  */
+/*  <!-- region our teem --  portfolio -->  */
 
-.ourteem {
-  width: 1440px;
-  height: 732px;
-}
 .h2heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--navy-blue);
 }
 .h3heading {
@@ -189,7 +145,6 @@ li {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--navy-blue);
 }
 .peshka {
@@ -197,22 +152,15 @@ li {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--slate);
 }
 
-.footerclass {
-  background-color: var(--navy-blue);
+.page-footer {
+  background: #2e2f42;
 }
 
-.footerlogo {
-  font-weight: 700;
-  font-size: 18px;
-  text-decoration: none; /* забрати підкреслення*/
-  line-height: 21px;
-  letter-spacing: 0.03em; /* відстань між символами */
-  text-transform: uppercase; /* символи з великої букви */
-  color: var(--cloud);
+.footer-logo .logo-part {
+  color: #f4f4fd;
 }
 
 .peshkafooter {

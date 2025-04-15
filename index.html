@@ -5,37 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webstudio</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
-    <header class="header">
-      <nav class="header-navigation">
-        <a id="strategy" class="header-logo" href="./index.html"><span>Web</span>studio</a>
 
-        <ul class="header-list-naw">
-          <li><a href="#strategy" class="header-list-naw-item"><span>Studio</span></a></li>
-          <li>
-            <a href="#portfolio" class="header-list-naw-item">Portfolio</a>
+  <body>
+    <header class="page-header">
+      <nav class="header-navigation">
+        <a id="strategy" class="logo header-logo" href="./index.html"
+          >Web<span class="logo-part">Studio</span></a
+        >
+
+        <ul class="header-nav-list">
+          <li class="nav-item">
+            <a href="#strategy" href="./index.html" class="nav-link"
+              ><span>Studio</span></a
+            >
           </li>
-          <li><a href="#address" class="header-list-naw-item">Contacts</a></li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#address" class="nav-link">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <address id="address" class="address-header">
+
+      <address id="address" class="address">
         <ul class="address-list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="address-list-item"
+          <li class="address-item">
+            <a href="mailto:info@devstudio.com" class="address-link"
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a href="tel:+110001111111" class="address-list-item"
+          <li class="address-item">
+            <a href="tel:+110001111111" class="address-link"
               >+11 (000) 111-11-11</a
             >
           </li>
@@ -45,74 +61,51 @@
 
     <main>
       <!-- #region main banner -->
-      <section class="wrapper">
-        <div class="main-banner-container">
-          <h1 class="main-banner-title">
-            Effective Solutions for Your Business
-          </h1>
-            <button type="button" class="main-banner-button">
-              Order Service
-            </button>
-          </div>
-        </div>
+      <section class="main-page">
+        <h1 class="main-page-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="main-page-button">Order Service</button>
       </section>
       <!-- #endregion main banner -->
 
       <!-- #region studio -->
       <section id="strategy" class="strategy-studio">
         <div class="container">
-        
-        <h2 hidden>Studio</h2>
-        
-      
-        <ul>
-          <div class="strategy-item">
-          <li>
-    
-            <h3 class="strategy-item-title">Strategy</h3>
-            <p class="strategy-item-descr">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          
-          </li>
-          </div>
-          
-          <div class="strategy-item">
-          <li>
-            <h3 class="strategy-title">Punctuality</h3>
-            <p class="strategy-item-descr">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-            
-          </li>
-          </div>
-          <div class="strategy-item">
-          <li>
-            <h3 class="strategy-title">Diligence</h3>
-            <p class="strategy-item-descr">
-              Research and confirm brands with the strongest digital growth
-              opportunities and minimize risk.
-            </p>
-            
+          <h2 hidden>Studio</h2>
+
+          <ul class="strategy-studio-list">
+            <li class="studio-item">
+              <h3 class="studio-item-title">Strategy</h3>
+              <p class="studio-item-descr">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
             </li>
-            </div>
-          <div class="strategy-item">
-          <li>
-            <h3 class="strategy-title">Technologies</h3>
-            <p class="strategy-item-descr">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-            
-          </li>
-          </div>
-          </div>
-        </ul>
+
+            <li class="studio-item">
+              <h3 class="studio-item-title">Punctuality</h3>
+              <p class="studio-item-descr">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+
+            <li class="studio-item">
+              <h3 class="studio-item-title">Diligence</h3>
+              <p class="studio-item-descr">
+                Research and confirm brands with the strongest digital growth
+                opportunities and minimize risk.
+              </p>
+            </li>
+
+            <li class="studio-item">
+              <h3 class="studio-item-title">Technologies</h3>
+              <p class="studio-item-descr">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
         </div>
-        
-      
       </section>
 
       <!-- #endregion studio -->
@@ -121,8 +114,9 @@
 
       <section class="ourteem">
         <h2 class="h2heding">Our Team</h2>
-        <ul>
-          <li>
+
+        <ul class="ourteem-list">
+          <li class="ourteem-item">
             <img
               src="./images/team/mark.jpg"
               alt="Mark Guerrero"
@@ -132,7 +126,8 @@
             <h3 class="h3heding">Mark Guerrero</h3>
             <p class="peshka">Product Designer</p>
           </li>
-          <li>
+
+          <li class="ourteem-item">
             <img
               src="./images/team/tom.jpg"
               alt="Tom Ford"
@@ -142,7 +137,8 @@
             <h3 class="h3heding">Tom Ford</h3>
             <p class="peshka">Frontend Developer</p>
           </li>
-          <li>
+
+          <li class="ourteem-item">
             <img
               src="./images/team/camila.jpg"
               alt="Camila Garcia"
@@ -152,7 +148,8 @@
             <h3 class="h3heding">Camila Garcia</h3>
             <p class="peshka">Marketing</p>
           </li>
-          <li>
+
+          <li class="ourteem-item">
             <img
               src="./images/team/daniel.jpg"
               alt="Daniel Wilson"
@@ -168,10 +165,11 @@
 
       <!-- #region our portfolio -->
 
-      <section id="portfolio">
+      <section id="portfolio" class="portfolio">
         <h2 class="h2heding">Our Portfolio</h2>
-        <ul>
-          <li>
+
+        <ul class="portfolio-list">
+          <li class="portfolio-item">
             <img
               src="./images/portfolio/bankapp.jpg"
               alt="Banking App"
@@ -181,7 +179,8 @@
             <h3 class="h3heding">Banking App</h3>
             <p class="peshka">App</p>
           </li>
-          <li>
+
+          <li class="portfolio-item">
             <img
               src="./images/portfolio/payment.jpg"
               alt="Cashless Payment"
@@ -191,7 +190,8 @@
             <h3 class="h3heding">Cashless Payment</h3>
             <p class="peshka">Marketing</p>
           </li>
-          <li>
+
+          <li class="portfolio-item">
             <img
               src="./images/portfolio/meditationapp.jpg"
               alt="Meditation App"
@@ -201,7 +201,8 @@
             <h3 class="h3heding">Meditation App</h3>
             <p class="peshka">App</p>
           </li>
-          <li>
+
+          <li class="portfolio-item">
             <img
               src="./images/portfolio/taxi.jpg"
               alt="DTaxi Service"
@@ -211,7 +212,8 @@
             <h3 class="h3heding">Taxi Service</h3>
             <p class="peshka">Marketing</p>
           </li>
-          <li>
+
+          <li class="portfolio-item">
             <img
               src="./images/portfolio/illustrations.jpg"
               alt="creen Illustrations"
@@ -221,7 +223,8 @@
             <h3 class="h3heding">Screen Illustrations</h3>
             <p class="peshka">Design</p>
           </li>
-          <li>
+
+          <li class="portfolio-item">
             <img
               src="./images/portfolio/courses.jpg"
               alt="Online Courses"
@@ -235,9 +238,15 @@
       </section>
       <!-- #endregion our portfolio -->
     </main>
-    <footer class="footerclass">
-      <a class="footerlogo" href="./index.html"><span>Web</span>studio</a>
 
+    <footer class="page-footer">
+      <a href="./index.html" class="footerlogo"
+        >Web<span class="footerspanlogo">Studio</span></a
+      >
+
+      <a id="strategy" class="logo footer-logo" href="./index.html"
+        >Web<span class="logo-part">Studio</span></a
+      >
       <p class="peshkafooter">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
