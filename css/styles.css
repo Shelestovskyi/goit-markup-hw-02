@@ -137,15 +137,20 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02em
   color: var(--navy-blue);
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize
 }
 .h3heading {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  letter-spacing: 0.02em
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize
 }
 .peshka {
   font-weight: 400;
