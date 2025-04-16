@@ -87,12 +87,12 @@ a {
 }
 
 .main-page-title {
-  color: var(--white);
-  font-weight: 700;
+  text-align: center;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
+  color: var(--white);
+  font-weight: 700;
 }
 
 .main-page-button {
@@ -152,17 +152,16 @@ a {
 }
 
 .htwo-heding {
-  line-height: 1.2;
+  line-height: 1.11;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
 }
 .htre-heding {
-  line-height: 1.2;
+  line-height: 1.11;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
