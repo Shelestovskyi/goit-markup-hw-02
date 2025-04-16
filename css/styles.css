@@ -71,13 +71,14 @@ a {
   letter-spacing: 0.02em;
 }
 
-.nav-link:active,
 .nav-link:hover,
 .nav-link:active {
   color: #404bbf;
 }
 
+.nav-link:hover,
 .nav-link:active,
+.nav-link:focus,
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
@@ -98,8 +99,6 @@ a {
 }
 
 .main-page-button {
-  border-radius: 4px;
-  height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: var(--iris);
   cursor: pointer;
