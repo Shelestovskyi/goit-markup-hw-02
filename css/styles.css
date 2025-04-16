@@ -133,25 +133,33 @@ a {
 
 /*  <!-- region our teem --  portfolio -->  */
 
+.ourteem {
+  background-color: #f4f4fd;
+}
+
+.ourteem-list {
+  background-color: #ffffff;
+}
+
 .htwo-heding {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-  letter-spacing: 0.02em
-  color: var(--navy-blue);
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   line-height: 1.11;
   text-align: center;
-  text-transform: capitalize
+  text-transform: capitalize;
 }
 .htre-heding {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
   line-height: 1.11;
   text-align: center;
-  text-transform: capitalize
-  color: #2e2f42
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .peshka {
   font-weight: 400;
