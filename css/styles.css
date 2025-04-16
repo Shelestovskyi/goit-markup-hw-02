@@ -72,7 +72,10 @@ a {
 }
 
 .nav-link:hover,
-.nav-link:active,
+.nav-link:active {
+  color: #404bbf;
+}
+
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
@@ -89,6 +92,7 @@ a {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .main-page-button {
@@ -107,7 +111,7 @@ a {
 
 .main-page-button:hover,
 .main-page-button:active {
-  background-color: var(--ocean);
+  background-color: #404bbf;
 }
 
 /*  #region studio*/
@@ -119,6 +123,7 @@ a {
 .hiden-head {
   font-size: 16px;
   line-height: 1.5;
+  line-height: 1.11;
 }
 
 .studio-item-title {
